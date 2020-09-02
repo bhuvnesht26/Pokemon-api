@@ -14,7 +14,8 @@ A REST API that, given a Pokemon name, returns its Shakespearean description.
 - Download this source code into a working directory.
 
     ```sh
-    git clone 
+    git clone https://github.com/bhuvnesht26/pokemon-api
+    ```
 
 - Install the requirements dependencies using npm:
 
