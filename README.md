@@ -10,13 +10,14 @@ A REST API that, given a Pokemon name, returns its Shakespearean description.
 
 
 ## Setup
-
-- Download this source code into a working directory.
+- Make sure you have Node.js at v10 or greater is installed on your system.
+- Clone the repository in a working directory.
 
     ```sh
-    git clone 
+    git clone https://github.com/bhuvnesht26/pokemon-api
+    ```
 
-- Install the requirements dependencies using npm:
+- Install the required dependencies using npm:
 
     ```sh
     npm install
@@ -40,9 +41,32 @@ This API by default uses in-memory `db.json` file with the help of a DataSource 
 We can also use other Databases like `MondoDB, MySQL, CouchDB` etc.
 For more information on these Data Sources and `Juggler` refer (https://loopback.io/doc/en/lb4/DataSource.html)
 
-## Docker Setup
+## API calls
 
+- Available methods
 
+`GET POST PUT PATCH DELETE`
+
+For eg. 
+
+```sh
+GET localhost:3000/pokemon/bulbasaur
+```
+
+Returns
+
+```sh
+{
+  "name": "bulbasaur",
+  "description": "Bulbasauro, known as fushigidane in japan, is the first pokémon in nintendo and game freak's pokémon franchise's cockatrices dictonary, did doth clepe a pokédex. Designed by atsuko nishida, bulbasaur debuted in pokémon red and green as a starter pokémon."
+}
+```
+
+There is a browser based API explorer to test all the endpoints. It can be accessed at `localhoat:3000/explorer`
+
+## Docker Install
+
+Make sure you have Docker installed on your system and added to the system PATH.
 To run this API on docker use the following commands. This will allow you to deploy a production-like environment quickly.
 
 ```sh
