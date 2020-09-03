@@ -10,7 +10,7 @@ A REST API that, given a Pokemon name, returns its Shakespearean description.
 
 
 ## Setup
-
+- Make sure you have Node.js at v10 or greater is installed on your system.
 - Download this source code into a working directory.
 
     ```sh
@@ -41,9 +41,9 @@ This API by default uses in-memory `db.json` file with the help of a DataSource 
 We can also use other Databases like `MondoDB, MySQL, CouchDB` etc.
 For more information on these Data Sources and `Juggler` refer (https://loopback.io/doc/en/lb4/DataSource.html)
 
-## Docker Setup
+## Docker Install
 
-
+Make sure you have Docker installed on your system and added to the system PATH.
 To run this API on docker use the following commands. This will allow you to deploy a production-like environment quickly.
 
 ```sh
