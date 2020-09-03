@@ -11,13 +11,13 @@ A REST API that, given a Pokemon name, returns its Shakespearean description.
 
 ## Setup
 - Make sure you have Node.js at v10 or greater is installed on your system.
-- Download this source code into a working directory.
+- Clone the repository in a working directory.
 
     ```sh
     git clone https://github.com/bhuvnesht26/pokemon-api
     ```
 
-- Install the requirements dependencies using npm:
+- Install the required dependencies using npm:
 
     ```sh
     npm install
