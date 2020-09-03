@@ -1,10 +1,10 @@
 {
   "ids": {
-    "Pokemon": 3
+    "Pokemon": 2
   },
   "models": {
     "Pokemon": {
-      "1": "{\"name\":\"charizard\",\"description\":\"Charizard flies 'round the sky in search of powerful opponents. 't breathes fire of such most wondrous heat yond 't melts aught. However, 't nev'r turns its fiery breath on any opponent weaker than itself.\"}",
+      "charizard": "{\"name\":\"charizard\",\"description\":\"Charizard flies 'round the sky in search of powerful opponents. 't breathes fire of such most wondrous heat yond 't melts aught. However, 't nev'r turns its fiery breath on any opponent weaker than itself.\"}",
       "bulbasaur": "{\"name\":\"bulbasaur\",\"description\":\"Bulbasauro, known as fushigidane in japan, is the first pokémon in nintendo and game freak's pokémon franchise's cockatrices dictonary, did doth clepe a pokédex. Designed by atsuko nishida, bulbasaur debuted in pokémon red and green as a starter pokémon.\"}"
     }
   }
