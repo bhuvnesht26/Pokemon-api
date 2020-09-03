@@ -41,6 +41,29 @@ This API by default uses in-memory `db.json` file with the help of a DataSource 
 We can also use other Databases like `MondoDB, MySQL, CouchDB` etc.
 For more information on these Data Sources and `Juggler` refer (https://loopback.io/doc/en/lb4/DataSource.html)
 
+## API calls
+
+- Available methods
+
+`GET POST PUT PATCH DELETE`
+
+For eg. 
+
+```sh
+GET localhost:3000/pokemon/bulbasaur
+```
+
+Returns
+
+```sh
+{
+  "name": "bulbasaur",
+  "description": "Bulbasauro, known as fushigidane in japan, is the first pokémon in nintendo and game freak's pokémon franchise's cockatrices dictonary, did doth clepe a pokédex. Designed by atsuko nishida, bulbasaur debuted in pokémon red and green as a starter pokémon."
+}
+```
+
+There is a browser based API explorer to test all the endpoints. It can be accessed at `localhoat:3000/explorer`
+
 ## Docker Install
 
 Make sure you have Docker installed on your system and added to the system PATH.
